@@ -12,21 +12,21 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='creative' caption='7' className='logobg' />
-          <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
+          <img src='/path/to/your/image.jpg' alt='WorkAnts' className='logomin' />
+          <h1 className='hero-title'>Building Success, Together Strong</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
+            <TitleSm title='BUILDING' /> <span>.</span>
+            <TitleSm title='ARCHITECTURE' /> <span>.</span>
+            <TitleSm title='PROPERTY DEVELOPMENT' />
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            <Title title='Turning your development ideas into a reality' />
+            <p>At WorkAnts, we specialize in transforming your development ideas into tangible realities. With our innovative technologies and modern approach, we ensure that every project is executed with precision and excellence. From initial concept to final construction, our dedicated team is committed to delivering high-quality results that exceed your expectations. Trust us to bring your vision to life, creating spaces that inspire and endure.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
@@ -46,7 +46,7 @@ const Hero = () => {
       <Brand />
 
       <div className='text-center'>
-        <Title title='Latest news & articles' />
+        <Title title='Our Latest Projects' />
       </div>
       <BlogCard />
     </>

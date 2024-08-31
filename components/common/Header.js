@@ -19,7 +19,7 @@ const Header = () => {
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
-              <TitleLogo title='creative' caption='7' className='logomin' />
+              <img src='/logo.png' alt='WorkAnts logo' className='logomin' />
             </Link>
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
@@ -27,7 +27,7 @@ const Header = () => {
               Home
             </Link>
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
-              Agency
+              About
             </Link>
             <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Team
@@ -39,7 +39,7 @@ const Header = () => {
               Showcase
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
-              Blog
+              Projects
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact

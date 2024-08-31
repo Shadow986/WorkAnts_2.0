@@ -10,7 +10,7 @@ const Expertise = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='Our expertise' />
-            <p>Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor.</p>
+            <p>At WorkAnts, we deliver top-notch construction services tailored to your needs. With years of experience and a skilled team, we excel in planning, design, and execution. Our commitment to quality, safety, and innovation ensures every project meets the highest standards. Trust us to bring your vision to life with precision and excellence.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

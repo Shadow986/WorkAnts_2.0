@@ -1,10 +1,11 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import React from "react"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
-import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
+import { FiPhone, FiHelpCircle, FiMessageCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -20,8 +21,10 @@ const Contact = () => {
             <div className='left w-30'>
               <div className='contact-deatils'>
                 <div className='box'>
-                  <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <FiPhone size={30} className='icons' />
+                  <h3>(+27) 11-412-12930</h3>
+                  <h3>(+27) 73-246-1964</h3>
+                  <h3>(+27) 83-375-1363</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
@@ -30,28 +33,36 @@ const Contact = () => {
                   <span>990 Madison Ave, Midtown Manhattan, 2th Floor, NY 10022</span>
                 </div>
                 <div className='box'>
-                  <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <FiMessageCircle size={30} className='icons' />
+                  <h3>daniels@workants.co.za</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
-                  <span>Career at Seven Creative</span>
+                  <h3>daniels@workants.co.za</h3>
+                  <span>Engineer at WorkAnts</span>
                 </div>
               </div>
               <ul>
                 <li className='icon'>
+                  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                   <BsFacebook size={25} />
+                  </a>
                 </li>
                 <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
+                  <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                  <FaWhatsapp size={25} />
+                  </a>
                 </li>
                 <li className='icon'>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                   <AiFillInstagram size={25} />
+                  </a>
                 </li>
                 <li className='icon'>
-                  <AiFillLinkedin size={25} />
+                  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <AiFillLinkedin size={25} />
+                  </a>
                 </li>
               </ul>
             </div>

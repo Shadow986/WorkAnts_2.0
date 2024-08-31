@@ -9,15 +9,20 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT AGENCY' /> <br />
+            <TitleSm title='ABOUT US' /> <br />
             <br />
-            <Title title='The last digital agency you will ever need!' className='title-bg' />
+            <Title title='For all your property development needs!' className='title-bg' />
           </div>
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
+              <TitleSm title='Turning your development ideas into a reality since 2005' />
+              <p className='desc-p'>WorkAnts is a Property Development Company established & Registered in 2012. We have over 6 years experience in the property Development industry. 
+
+                We specialize in affordable house plans, Building & Development to client specifications. We design and build new homes also alterations/additions to existing buildings.
+
+                We also do property Renovations, commercial as well as private property within Africa 
+              </p>
               <div className='grid-3'>
                 <div className='box'>
                   <h1 className='indigo'>10+</h1>
@@ -45,7 +50,7 @@ const Agency = () => {
             <div className='right w-60 ml'>
               <TitleSm title='Our mission' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>WorkAnts is committed to professional integrity and strives to deliver work of outstanding quality based on sound business principles to the benefit and improvements of the lives of our clients</p>
             </div>
           </div>
         </div>

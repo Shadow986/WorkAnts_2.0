@@ -6,15 +6,15 @@ import { BiUser } from "react-icons/bi"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "10+ years of construction experience",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Modern Design, Unique Solutions ",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ successfully completed projects",
   },
   {
     icon: <BiUser size={25} />,
@@ -24,27 +24,27 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
-    cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    title: "Building",
+    cover: "../images/hero_design.jpg",
+    desc: [{ text: "New House Building" }, { text: "Alteration & Additions" }, { text: "General Renovations" }, { text: "Repairs & Painting" }, { text: "Paving" }, { text: "Tiling"}, { text: "Roofing" }],
   },
   {
     id: 2,
-    title: "Digital Marketing",
-    cover: "../images/e2.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    title: "Architecture",
+    cover: "../images/arc.jpeg",
+    desc: [{ text: "House Plans" }, { text: "Counsil Approval" }, { text: "Building Plans" }, { text: "Construction Plans" }, { text: "Draughting Service" }, { text: "Additions & Alterations" }],
   },
   {
     id: 3,
-    title: "E-Commerce",
-    cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    title: "Property Development",
+    cover: "../images/property-development.jpg",
+    desc: [{ text: "For Rentals" }, { text: "For Investments" }, { text: "For Farming" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
-    cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    title: "Construction Works",
+    cover: "../images/con-works.jpg",
+    desc: [{ text: "Infrastructure Construction" }, { text: "Residential Construction" }, { text: "Commercial Construction" }, { text: "Industrial Construction" }],
   },
 ]
 export const testimonial = [
@@ -80,39 +80,39 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    title: "Infrastructe",
+    cover: "../images/infras.jpeg",
+    catgeory: "CONSTRUCTION WORKS",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    cover: "../images/s2.jpg",
+    title: "House Plans",
+    catgeory: "ARCHITECTURE",
+    cover: "../images/hp.jpeg",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "../images/s3.jpg",
-    catgeory: "WEBSITES",
+    title: "Pipelines",
+    cover: "../images/pipe.jpg",
+    catgeory: "CONSTRUCTION WORKS",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    title: "Roofing",
+    cover: "../images/roofing.jpg",
+    catgeory: "BUILDING	",
   },
   {
     id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    title: "Draughting Service",
+    cover: "../images/draughting.jpg",
+    catgeory: "ARCHITECTURE",
   },
   {
     id: 5,
-    title: "VR Experience",
-    cover: "../images/s6.jpg",
-    catgeory: "WEBSITES	",
+    title: "General Renevations",
+    cover: "../images/reno.jpg",
+    catgeory: "BUILDING	",
   },
 ]
 export const brand = [

@@ -13,7 +13,7 @@
     left: -40%;
     width: 180%;
     height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
+    background-image: url("../assets/images/hero.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -66,7 +66,7 @@
   .container {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background: rgb(192, 90, 255);
+    background: rgb(51, 50, 51);
     background: $gradient;
     @include flex(center, space-between, none);
   }
