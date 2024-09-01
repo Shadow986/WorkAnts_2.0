@@ -6,6 +6,7 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
+import { logo } from "./image/logo.png"
 
 const Hero = () => {
   return (
