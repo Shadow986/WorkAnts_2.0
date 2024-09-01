@@ -6,14 +6,13 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
-import { logo } from "./image/logo.png"
 
 const Hero = () => {
   return (
     <>
       <section className='hero'>
         <div className='container'>
-          <img src='/workspaces/WorkAnts_2.0/public/images/logo.png' alt='WorkAnts' className='logomin' />
+          <img src='/path/to/your/image.jpg' alt='WorkAnts' className='logomin' />
           <h1 className='hero-title'>Building Success, Together Strong</h1>
 
           <div className='sub-heading'>
