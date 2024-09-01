@@ -1,5 +1,5 @@
 import React from "react"
-import { Title, TitleLogo } from "./logo.png"
+import { Title, TitleLogo } from "./common/Title"
 
 const Banner = () => {
   return (
