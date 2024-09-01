@@ -12,7 +12,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <img src='/path/to/your/image.jpg' alt='WorkAnts' className='logomin' />
+          <img src='/workspaces/WorkAnts_2.0/public/images/logo.png' alt='WorkAnts' className='logomin' />
           <h1 className='hero-title'>Building Success, Together Strong</h1>
 
           <div className='sub-heading'>
