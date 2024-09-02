@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <img src='/path/to/your/image.jpg' alt='WorkAnts logo' className='logomin' />
+              <img src='/images/logo.jpeg' alt='WorkAnts logo' className='logomin' />
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
