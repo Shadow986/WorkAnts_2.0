@@ -1,14 +1,18 @@
-import { blogdata } from "@/assets/data/dummydata"
-import Banner from "@/components/Banner"
-import { Title, TitleSm } from "@/components/common/Title"
-import Head from "next/head"
-import { useRouter } from "next/router"
-import React from "react"
+import { blogdata } from "@/assets/data/dummydata";
+import Banner from "@/components/Banner";
+import { Title, TitleSm } from "@/components/common/Title";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import React from "react";
 
 const SinglePost = () => {
-  const router = useRouter()
-  const { id } = router.query
-  const post = blogdata.find((post) => post.id === parseInt(id))
+  const router = useRouter();
+  const { id } = router.query;
+  const post = blogdata.find((post) => post.id === parseInt(id));
+
+  if (!post) {
+    return <div>Error: Post not found</div>;
+  }
 
   return (
     <>
@@ -46,7 +50,7 @@ const SinglePost = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default SinglePost
+export default SinglePost;
